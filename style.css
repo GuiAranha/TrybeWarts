@@ -50,10 +50,17 @@ main{
 #evaluation-form{
     display: flex;
     width: 675px;
-    border: 3px solid red;
     flex-direction: column;
 }
 
 #trybewarts-forms-logo{
     height: 500px;
+}
+
+#div-name{
+    display: flex;
+}
+
+#div-name #input-name{
+    margin-right: 8px;
 }
