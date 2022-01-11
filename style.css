@@ -65,7 +65,10 @@ main{
     margin-right: 8px;
 }
 
-/* div{
+#div-email{
     display: flex;
-    justify-content: space-around;
-} */
+}
+
+#div-email #input-email{
+    margin-right: 8px;
+}
