@@ -53,3 +53,7 @@ main{
     border: 3px solid red;
     flex-direction: column;
 }
+
+#trybewarts-forms-logo{
+    height: 500px;
+}
