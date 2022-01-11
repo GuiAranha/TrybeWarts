@@ -57,3 +57,8 @@ main{
 #trybewarts-forms-logo{
     height: 500px;
 }
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
