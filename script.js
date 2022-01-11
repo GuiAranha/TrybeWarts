@@ -4,6 +4,8 @@ window.onload = function(){
     let email = document.getElementById('email');
     let password = document.getElementById('password');
     let checkInfo = document.getElementById('agreement');
+    let textarea = document.getElementById('textarea');
+    let counter = document.getElementById('counter');
 
     loginButton.addEventListener('click', function(event){
         if (email.value === 'tryber@teste.com' & password.value === '123456'){
@@ -22,5 +24,8 @@ window.onload = function(){
         }
     });
 
+    textarea.addEventListener('input', function(event){
+        counter.innerText = 500 - textarea.value.length;
+    });
 
 }
