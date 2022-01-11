@@ -72,3 +72,9 @@ main{
 #div-email #input-email{
     margin-right: 8px;
 }
+
+#submit-btn{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 16px;
+}
