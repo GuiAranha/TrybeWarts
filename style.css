@@ -72,3 +72,12 @@ main{
 #div-email #input-email{
     margin-right: 8px;
 }
+
+#footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    width: 100%;
+    background-color: gray;
+}
