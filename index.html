@@ -35,28 +35,35 @@
     </header>
 
     <main>
-        <form action="" method="get" id="evaluation-form">
-            <div id="div-name">
-                <input id="input-name" type="text" placeholder="Nome" />
-                <input id="input-lastname" type="text" placeholder="Sobrenome" />
-            </div>
-            <div>
-            <input id="input-email" type="email" placeholder="Email">
-            <label for="">Casa: 
-                <select name="select" id="house">
-                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
-                </select>
-            </label>
-            </div>
-        </form>
-        <img 
-        src="images/trybewarts-colored.svg" 
-        alt="Logo da Trybewarts" 
-        id="trybewarts-forms-logo">
+      <form action="" method="get" id="evaluation-form">
+        <div id="div-name">
+          <input id="input-name" type="text" placeholder="Nome" />
+          <input id="input-lastname" type="text" placeholder="Sobrenome" />
+        </div>
+        <div>
+          <input id="input-email" type="email" placeholder="Email" />
+          <label for=""
+            >Casa:
+            <select name="select" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </label>
 
+          <label id="label-family" for="">Qual sua família?</label><br>
+          <input name="family" type="radio" value="Frontend" />Família Frontend<br>
+          <input name="family" type="radio" value="Backend" />Família Backend<br>
+          <input name="family" type="radio" value="FullStack" />Família FullStack
+          
+        </div>
+      </form>
+      <img
+        src="images/trybewarts-colored.svg"
+        alt="Logo da Trybewarts"
+        id="trybewarts-forms-logo"
+      />
     </main>
 
     <script src="script.js"></script>
