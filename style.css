@@ -43,47 +43,47 @@ body {
   padding: 10px;
 }
 
-main{
-    display: flex;
+main {
+  display: flex;
 }
 
-#evaluation-form{
-    display: flex;
-    width: 675px;
-    flex-direction: column;
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
 
-#trybewarts-forms-logo{
-    height: 500px;
+#trybewarts-forms-logo {
+  height: 500px;
 }
 
-#div-name{
-    display: flex;
+#div-name {
+  display: flex;
 }
 
-#div-name #input-name{
-    margin-right: 8px;
+#div-name #input-name {
+  margin-right: 8px;
 }
 
-#div-email{
-    display: flex;
+#div-email {
+  display: flex;
 }
 
-#div-email #input-email{
-    margin-right: 8px;
+#div-email #input-email {
+  margin-right: 8px;
 }
 
-#submit-btn{
-    background-color: rebeccapurple;
-    color: white;
-    border-radius: 16px;
+#submit-btn {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 16px;
 }
 
-#footer{
-    color: white;
-    position: fixed;
-    bottom: 0;
-    padding: 0 10px;
-    width: 100%;
-    background-color: gray;
+#footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 0 10px;
+  width: 100%;
+  background-color: gray;
 }
